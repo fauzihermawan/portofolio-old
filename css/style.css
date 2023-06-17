@@ -7559,6 +7559,46 @@ h1, h2, h3, h4, h5,
       opacity: 1;
       visibility: visible; } }
 
+.timeline-section {
+  min-height: 100vh;
+  padding: 100px 15px;
+}
+
+.timeline-items {
+  max-width: 1000px;
+  margin:auto;
+}
+
+.timeline-items::before{
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #132238;
+  left: calc(50% + 1px);
+}
+
+.timeline-item {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-warp
+}
+
+.timeline-items:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+
+.timeline-items:nth-child(even) {
+  padding-left: calc(50% + 30px);
+}
+
+.timeline-content {
+  background-color: #ececf6;
+  padding: 30px;
+  border-radius: 5px;
+}
 .hero-wrap {
   width: 100%;
   height: 100%;
