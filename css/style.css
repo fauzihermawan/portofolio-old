@@ -7597,7 +7597,7 @@ h1, h2, h3, h4, h5,
       font-weight: 900; }
     .hero-wrap .text .btn-custom {
       font-weight: 400;
-      color: #b3b3b3;
+      color: var(--gray);
       border-bottom: 2px solid #b3b3b3; }
 
 .filter-button {
@@ -8128,7 +8128,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #132238;
-  padding: 6em 0; }
+  padding: 3em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
@@ -8289,7 +8289,7 @@ textarea.form-control {
   padding: 0; }
   .block-23 ul li, .block-23 ul li > a {
     display: table;
-    line-height: 1.5;
+    line-height: 1;
     margin-bottom: 15px; }
   .block-23 ul li span {
     color: rgba(255, 255, 255, 0.5); }
