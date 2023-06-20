@@ -7629,6 +7629,59 @@ h1, h2, h3, h4, h5,
   padding: 30px;
   border-radius: 5px;
 }
+.timeline-content:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li{
+  margin: 5px 0;
+  padding: 5px; 
+  list-style: none;
+}
+.bar {
+  background: #ececf6;
+  display: block;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(190, 190, 190, 1)0%, rgba(200, 200, 220, 1)100%);
+}
+
+.modeling{
+  width: 90%;
+  animation: modeling 3s;
+}
+.sculpting{
+  width: 85%;
+  animation: sculpting 3s;
+}
+.texturing{
+  width: 70%;
+  animation: texturing 3s;
+}
+.animation{
+  width: 55%;
+  animation: animation 3s;
+}
+.rigging{
+  width: 50%;
+  animation: rigging 3s;
+}
+.conceptart{
+  width: 40%;
+  animation: conceptart 3s;
+}
 .hero-wrap {
   width: 100%;
   height: 100%;
@@ -8719,5 +8772,53 @@ textarea.form-control {
   }
   .timeline-list:nth-child(even){
     direction: ltr;
+  }}
+
+@keyframes modeling {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes sculpting {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+@keyframes animation {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 55%;
+  }
+}
+@keyframes texturing {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes rigging {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes conceptart {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
   }
 }
